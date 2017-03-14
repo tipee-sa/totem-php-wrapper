@@ -1,9 +1,9 @@
 {
-    "name": "jody/totem",
+    "name": "gammadia/totem",
     "authors": [
         {
             "name": "Jody Lognoul",
-            "email": "lognoulj@gmail.com"
+            "email": "jody.lognoul@gammadia.ch"
         }
     ],
     "require": {
