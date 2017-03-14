@@ -1,0 +1,6 @@
+Client\Entity\Response\PersonUpdate:
+  exclusion_policy: ALL
+  properties:
+    success:
+      expose: true
+      type: boolean

@@ -1,0 +1,4 @@
+Client\Entity\PersonData:
+  handler_callbacks:
+    serialization:
+      json: serializeToJson

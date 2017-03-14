@@ -1,0 +1,23 @@
+{
+    "name": "jody/totem",
+    "authors": [
+        {
+            "name": "Jody Lognoul",
+            "email": "lognoulj@gmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^6.2",
+        "jms/serializer": "^1.5"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.8.*",
+        "mockery/mockery": "^0.9.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Client\\": "src/Client",
+            "Test\\Client\\": "test/Client"
+        }
+    }
+}

@@ -1,0 +1,12 @@
+Client\Entity\Response\PersonCreate:
+  exclusion_policy: ALL
+  properties:
+    id:
+      expose: true
+      type: string
+    success:
+      expose: true
+      type: string
+    location:
+      expose: true
+      type: string

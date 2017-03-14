@@ -1,0 +1,13 @@
+Client\Entity\PersonTipee:
+  exclusion_policy: ALL
+  properties:
+    id:
+      expose: true
+      type: integer
+    password:
+      expose: true
+      type: string
+    dateHiring:
+      expose: true
+      type: DateTime<'Y-m-d'>
+      serialized_name: date_hiring
