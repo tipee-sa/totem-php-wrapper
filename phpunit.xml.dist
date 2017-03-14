@@ -10,7 +10,7 @@
         processIsolation            = "false"
         stopOnFailure               = "false"
         syntaxCheck                 = "false"
-        bootstrap                   = "test/Client/bootstrap.php" >
+        bootstrap                   = "test/bootstrap.php" >
 
     <testsuites>
         <testsuite name="Project Test Suite">
@@ -20,7 +20,7 @@
 
     <filter>
         <whitelist>
-            <directory>./src/Client/</directory>
+            <directory>./lib/Client/</directory>
         </whitelist>
     </filter>
 

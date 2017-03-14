@@ -24,9 +24,6 @@ class PersonService extends AbstractService
 
         $response = $this->post("users/create", $personJson);
 
-        echo "afsdfasdf";
-        print_r($personJson);
-
         return $this->deserialize($response->getBody()->getContents(), PersonCreate::class);
     }
 

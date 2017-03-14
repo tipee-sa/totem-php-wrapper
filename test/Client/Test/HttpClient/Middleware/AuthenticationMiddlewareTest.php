@@ -1,15 +1,15 @@
 <?php
 
-namespace Test\Client\HttpClient\Middleware;
+namespace Client\Test\HttpClient\Middleware;
 
 use Client\HttpClient\Middleware\AuthenticationMiddleware;
 use Client\Security\Authentication\AuthenticationInterface;
-use Test\Client\TestCase;
+use Client\Test\TestCase;
 use Psr\Http\Message\RequestInterface;
 
 /**
  * Class AuthenticationMiddlewareTest
- * @package Test\Client\HttpClient\Middleware
+ * @package Client\Test\HttpClient\Middleware
  */
 class AuthenticationMiddlewareTest extends TestCase
 {

@@ -1,8 +1,8 @@
 <?php
-namespace Test\Client\Security;
+namespace Client\Test\Security;
 
 use Client\Security\Authentication\TotemTokenAuthentication;
-use Test\Client\TestCase;
+use Client\Test\TestCase;
 
 /**
  * Class TotemTokenAuthenticationTest

@@ -16,8 +16,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Client\\": "src/Client",
-            "Test\\Client\\": "test/Client"
+            "Client\\": "lib/Client/"
         }
     }
 }

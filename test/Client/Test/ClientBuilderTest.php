@@ -1,12 +1,12 @@
 <?php
-namespace Test\Client;
+namespace Client\Test;
 
 use Client\Client;
 use Client\ClientBuilder;
 
 /**
  * Class ClientBuilderTest
- * @package Test\Client
+ * @package Client\Test
  */
 class ClientBuilderTest extends TestCase
 {

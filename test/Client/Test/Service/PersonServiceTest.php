@@ -7,7 +7,7 @@ use Client\Entity\PersonGlobal;
 use Client\Entity\PersonTipee;
 use Client\HttpClient\HttpClientInterface;
 use Client\Service\PersonService;
-use Test\Client\TestCase;
+use Client\Test\TestCase;
 use GuzzleHttp\Psr7\Response;
 
 /**

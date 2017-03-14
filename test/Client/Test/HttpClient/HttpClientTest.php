@@ -1,15 +1,15 @@
 <?php
 
-namespace Test\Client\HttpClient;
+namespace Client\Test\HttpClient;
 
 use Client\HttpClient\HttpClient;
 use Client\Security\Authentication\AuthenticationInterface;
-use Test\Client\TestCase;
+use Client\Test\TestCase;
 use GuzzleHttp\ClientInterface;
 
 /**
  * Class HttpClientTest
- * @package Test\Client\HttpClient
+ * @package Client\Test\HttpClient
  */
 class HttpClientTest extends TestCase
 {

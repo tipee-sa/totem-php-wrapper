@@ -1,6 +1,6 @@
 <?php
 use Client\Serializer\SerializerBuilder;
-use Test\Client\TestCase;
+use Client\Test\TestCase;
 use JMS\Serializer\SerializerInterface;
 
 /**

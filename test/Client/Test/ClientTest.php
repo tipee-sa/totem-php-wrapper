@@ -1,6 +1,6 @@
 <?php
 
-namespace Test\Client;
+namespace Client\Test;
 
 use Client\Client;
 use Client\HttpClient\HttpClientInterface;
@@ -11,7 +11,7 @@ use JMS\Serializer\SerializerInterface;
 
 /**
  * Class ClientTest
- * @package Test\Client
+ * @package Client\Test
  */
 class ClientTest extends TestCase
 {

@@ -20,7 +20,7 @@ class SerializerBuilder
     public static function build()
     {
         return JMSSerializerBuilder::create()
-            ->addMetadataDir(__DIR__ . '/../Resources/Serializer', 'Client')
+            ->addMetadataDir(__DIR__ . '/../Resources/Serializer')
             ->addDefaultHandlers()
             ->configureHandlers(function(HandlerRegistry $registry) {
                 $registry->registerSubscribingHandler(new DateTimeHandler());

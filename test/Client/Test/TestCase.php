@@ -1,6 +1,6 @@
 <?php
 
-namespace Test\Client;
+namespace Client\Test;
 
 use Client\Serializer\SerializerBuilder;
 use JMS\Serializer\SerializerInterface;
@@ -8,7 +8,7 @@ use PHPUnit_Framework_TestCase;
 
 /**
  * Class TestCase
- * @package Test\Client
+ * @package Client\Test
  */
 abstract class TestCase extends PHPUnit_Framework_TestCase
 {

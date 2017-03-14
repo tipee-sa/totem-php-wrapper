@@ -1,11 +1,11 @@
 <?php
 
-namespace Test\Client\Exception;
+namespace Client\Test\Exception;
 
 use Client\Entity\Error\ApiError;
 use Client\Exception\ApiException;
 use Client\Exception\ExceptionWrapper;
-use Test\Client\TestCase;
+use Client\Test\TestCase;
 use GuzzleHttp\Exception\RequestException;
 use Prophecy\Prophecy\ObjectProphecy;
 use Psr\Http\Message\RequestInterface;
@@ -13,7 +13,7 @@ use Psr\Http\Message\ResponseInterface;
 
 /**
  * Class ExceptionWrapperTest
- * @package Test\Client\Exception
+ * @package Client\Test\Exception
  */
 class ExceptionWrapperTest extends TestCase
 {
