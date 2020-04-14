@@ -19,7 +19,7 @@ class AuthenticationMiddlewareTest extends TestCase
      */
     public function invoke_Success()
     {
-        $authentication = $this->getMock(AuthenticationInterface::class);
+        $authentication = $this->createMock(AuthenticationInterface::class);
         $authentication->expects($this->once())
                        ->method('getHeaders')
                        ->willReturn(['Authentication' => 'XXX', 'OtherOption' => 'XXX']);
@@ -27,7 +27,7 @@ class AuthenticationMiddlewareTest extends TestCase
         /** @var AuthenticationInterface $authentication */
         $middleware = new AuthenticationMiddleware($authentication);
 
-        $request = $this->getMock(RequestInterface::class);
+        $request = $this->createMock(RequestInterface::class);
         $request->expects($this->exactly(2))
                 ->method('withHeader')
                 ->withConsecutive( ['Authentication', 'XXX'], ['OtherOption', 'XXX'])

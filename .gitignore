@@ -2,3 +2,5 @@ vendor
 .idea/
 test-output/
 *.iml
+.phplint-cache
+.phpunit.result.cache

@@ -4,13 +4,13 @@ namespace Client\Test;
 
 use Client\Serializer\SerializerBuilder;
 use JMS\Serializer\SerializerInterface;
-use PHPUnit_Framework_TestCase;
+use PHPUnit\Framework\TestCase as PHPUnitTestCase;
 
 /**
  * Class TestCase
  * @package Client\Test
  */
-abstract class TestCase extends PHPUnit_Framework_TestCase
+abstract class TestCase extends PHPUnitTestCase
 {
 
     /**
@@ -39,7 +39,7 @@ abstract class TestCase extends PHPUnit_Framework_TestCase
     /**
      * {@inheritdoc}
      */
-    static public function setUpBeforeClass()
+    static public function setUpBeforeClass(): void
     {
         self::configureSerializer();
     }

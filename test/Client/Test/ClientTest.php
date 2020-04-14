@@ -25,10 +25,10 @@ class ClientTest extends TestCase
     public function service_WithValidName_ReturnsServiceInstance($serviceName, $expectedClassName)
     {
         /** @var SerializerInterface $serializer */
-        $serializer = $this->getMock(SerializerInterface::class);
+        $serializer = $this->createMock(SerializerInterface::class);
 
         /** @var HttpClientInterface $httpClient */
-        $httpClient = $this->getMock(HttpClientInterface::class);
+        $httpClient = $this->createMock(HttpClientInterface::class);
 
         $client = new Client($httpClient, $serializer);
         $service = $client->service($serviceName);
@@ -46,10 +46,10 @@ class ClientTest extends TestCase
     public function service_ThroughMagicMethodWithValidName_ReturnsServiceInstance($serviceName, $expectedClassName)
     {
         /** @var SerializerInterface $serializer */
-        $serializer = $this->getMock(SerializerInterface::class);
+        $serializer = $this->createMock(SerializerInterface::class);
 
         /** @var HttpClientInterface $httpClient */
-        $httpClient = $this->getMock(HttpClientInterface::class);
+        $httpClient = $this->createMock(HttpClientInterface::class);
 
         $client = new Client($httpClient, $serializer);
         $service = $client->$serviceName();
@@ -59,16 +59,15 @@ class ClientTest extends TestCase
 
     /**
      * @test
-     * @expectedException InvalidArgumentException
-     *
      */
     public function service_WithUnknownName_throwsException()
     {
+        $this->expectException(InvalidArgumentException::class);
 
         /** @var SerializerInterface $serializer */
-        $serializer = $this->getMock(SerializerInterface::class);
+        $serializer = $this->createMock(SerializerInterface::class);
         /** @var HttpClientInterface $httpClient */
-        $httpClient = $this->getMock(HttpClientInterface::class);
+        $httpClient = $this->createMock(HttpClientInterface::class);
 
         $client = new Client($httpClient, $serializer);
         $client->service("unknown");

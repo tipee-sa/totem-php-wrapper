@@ -24,7 +24,7 @@ class PersonServiceTest extends TestCase
 
         $expectedPersonAsJson = $this->serialize($expectedPerson);
 
-        $response = new Response(200);
+        $response = new Response(200, [], $expectedPersonAsJson);
 
         $httpClient = $this->prophesize(HttpClientInterface::class);
         $httpClient->post('users/create', $expectedPersonAsJson, [])
@@ -45,7 +45,7 @@ class PersonServiceTest extends TestCase
         $expectedPersonGlobal = $this->getPersonCreateRequest()->getData()->getPersonGlobal();
         $expectedPersonGlobalAsJson = $this->serialize($expectedPersonGlobal);
 
-        $response = new Response(200);
+        $response = new Response(200, [], $expectedPersonGlobalAsJson);
 
         $httpClient = $this->prophesize(HttpClientInterface::class);
         $httpClient->put("users/$totemId/global", $expectedPersonGlobalAsJson, [])
@@ -69,7 +69,7 @@ class PersonServiceTest extends TestCase
         $expectedPersonTipee = $this->getPersonCreateRequest()->getData()->getPersonTipee();
         $expectedPersonTipeeAsJson = $this->serialize($expectedPersonTipee);
 
-        $response = new Response(200);
+        $response = new Response(200, [], $expectedPersonTipeeAsJson);
 
         $httpClient = $this->prophesize(HttpClientInterface::class);
         $httpClient->put("users/$totemId/$namespace", $expectedPersonTipeeAsJson, [])
