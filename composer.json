@@ -20,5 +20,7 @@
         "psr-4": {
             "Client\\": "lib/Client/"
         }
-    }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
