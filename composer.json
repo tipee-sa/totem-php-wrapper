@@ -8,8 +8,8 @@
     ],
     "require": {
         "php": ">=7.2",
-        "guzzlehttp/guzzle": "^6.5",
-        "jms/serializer": "^3.6",
+        "guzzlehttp/guzzle": "^7.0",
+        "jms/serializer": "^1.14 || ^3.12",
         "symfony/yaml": "^4.0 || ^5.0"
     },
     "require-dev": {
