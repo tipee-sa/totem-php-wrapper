@@ -1,0 +1,572 @@
+parameters:
+	ignoreErrors:
+		-
+			message: "#^Method Client\\\\Client\\:\\:__call\\(\\) has parameter \\$args with no typehint specified\\.$#"
+			count: 1
+			path: lib/Client/Client.php
+
+		-
+			message: "#^PHPDoc tag @param has invalid value \\(\\$args\\)\\: Unexpected token \"\\$args\", expected type at offset 59$#"
+			count: 1
+			path: lib/Client/Client.php
+
+		-
+			message: "#^Method Client\\\\ClientBuilder\\:\\:__construct\\(\\) has parameter \\$baseUri with no typehint specified\\.$#"
+			count: 1
+			path: lib/Client/ClientBuilder.php
+
+		-
+			message: "#^Method Client\\\\ClientBuilder\\:\\:create\\(\\) has parameter \\$authorizationHeader with no typehint specified\\.$#"
+			count: 1
+			path: lib/Client/ClientBuilder.php
+
+		-
+			message: "#^Method Client\\\\ClientBuilder\\:\\:create\\(\\) has parameter \\$baseUri with no typehint specified\\.$#"
+			count: 1
+			path: lib/Client/ClientBuilder.php
+
+		-
+			message: "#^Method Client\\\\ClientBuilder\\:\\:setSerializer\\(\\) has no return typehint specified\\.$#"
+			count: 1
+			path: lib/Client/ClientBuilder.php
+
+		-
+			message: "#^PHPDoc tag @param has invalid value \\(\\$authorizationHeader\\)\\: Unexpected token \"\\$authorizationHeader\", expected type at offset 25$#"
+			count: 1
+			path: lib/Client/ClientBuilder.php
+
+		-
+			message: "#^PHPDoc tag @param has invalid value \\(\\$baseUri\\)\\: Unexpected token \"\\$baseUri\", expected type at offset 60$#"
+			count: 1
+			path: lib/Client/ClientBuilder.php
+
+		-
+			message: "#^PHPDoc tag @param has invalid value \\(\\$baseUri\\)\\: Unexpected token \"\\$baseUri\", expected type at offset 94$#"
+			count: 1
+			path: lib/Client/ClientBuilder.php
+
+		-
+			message: "#^Ternary operator condition is always true\\.$#"
+			count: 1
+			path: lib/Client/ClientBuilder.php
+
+		-
+			message: "#^Unsafe usage of new static\\(\\)\\.$#"
+			count: 1
+			path: lib/Client/ClientBuilder.php
+
+		-
+			message: "#^Method Client\\\\Entity\\\\Person\\:\\:getNamespaces\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Client/Entity/Person.php
+
+		-
+			message: "#^Property Client\\\\Entity\\\\Person\\:\\:\\$namespaces type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Client/Entity/Person.php
+
+		-
+			message: "#^Method Client\\\\Entity\\\\PersonData\\:\\:serializeToJson\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Client/Entity/PersonData.php
+
+		-
+			message: "#^Unsafe usage of new static\\(\\)\\.$#"
+			count: 1
+			path: lib/Client/Exception/ExceptionWrapper.php
+
+		-
+			message: "#^Method Client\\\\Handlers\\\\DateTimeHandler\\:\\:deserializeDateTimeToJson\\(\\) has parameter \\$datetime with no typehint specified\\.$#"
+			count: 1
+			path: lib/Client/Handlers/DateTimeHandler.php
+
+		-
+			message: "#^Method Client\\\\Handlers\\\\DateTimeHandler\\:\\:deserializeDateTimeToJson\\(\\) should return string but returns DateTime\\|false\\.$#"
+			count: 1
+			path: lib/Client/Handlers/DateTimeHandler.php
+
+		-
+			message: "#^Method Client\\\\Handlers\\\\DateTimeHandler\\:\\:getSubscribingMethods\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Client/Handlers/DateTimeHandler.php
+
+		-
+			message: "#^PHPDoc tag @param has invalid value \\(\\$datetime\\)\\: Unexpected token \"\\$datetime\", expected type at offset 68$#"
+			count: 1
+			path: lib/Client/Handlers/DateTimeHandler.php
+
+		-
+			message: "#^Method Client\\\\HttpClient\\\\HttpClient\\:\\:__construct\\(\\) has parameter \\$options with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Client/HttpClient/HttpClient.php
+
+		-
+			message: "#^Method Client\\\\HttpClient\\\\HttpClient\\:\\:delete\\(\\) has parameter \\$options with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Client/HttpClient/HttpClient.php
+
+		-
+			message: "#^Method Client\\\\HttpClient\\\\HttpClient\\:\\:delete\\(\\) should return GuzzleHttp\\\\Psr7\\\\Response but returns GuzzleHttp\\\\Psr7\\\\Request\\.$#"
+			count: 1
+			path: lib/Client/HttpClient/HttpClient.php
+
+		-
+			message: "#^Method Client\\\\HttpClient\\\\HttpClient\\:\\:doRequest\\(\\) has parameter \\$method with no typehint specified\\.$#"
+			count: 1
+			path: lib/Client/HttpClient/HttpClient.php
+
+		-
+			message: "#^Method Client\\\\HttpClient\\\\HttpClient\\:\\:doRequest\\(\\) has parameter \\$options with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Client/HttpClient/HttpClient.php
+
+		-
+			message: "#^Method Client\\\\HttpClient\\\\HttpClient\\:\\:doRequest\\(\\) has parameter \\$uri with no typehint specified\\.$#"
+			count: 1
+			path: lib/Client/HttpClient/HttpClient.php
+
+		-
+			message: "#^Method Client\\\\HttpClient\\\\HttpClient\\:\\:get\\(\\) has parameter \\$options with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Client/HttpClient/HttpClient.php
+
+		-
+			message: "#^Method Client\\\\HttpClient\\\\HttpClient\\:\\:get\\(\\) should return GuzzleHttp\\\\Psr7\\\\Response but returns GuzzleHttp\\\\Psr7\\\\Request\\.$#"
+			count: 1
+			path: lib/Client/HttpClient/HttpClient.php
+
+		-
+			message: "#^Method Client\\\\HttpClient\\\\HttpClient\\:\\:handleAuthorization\\(\\) has no return typehint specified\\.$#"
+			count: 1
+			path: lib/Client/HttpClient/HttpClient.php
+
+		-
+			message: "#^Method Client\\\\HttpClient\\\\HttpClient\\:\\:patch\\(\\) has parameter \\$options with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Client/HttpClient/HttpClient.php
+
+		-
+			message: "#^Method Client\\\\HttpClient\\\\HttpClient\\:\\:patch\\(\\) should return GuzzleHttp\\\\Psr7\\\\Response but returns GuzzleHttp\\\\Psr7\\\\Request\\.$#"
+			count: 1
+			path: lib/Client/HttpClient/HttpClient.php
+
+		-
+			message: "#^Method Client\\\\HttpClient\\\\HttpClient\\:\\:post\\(\\) has parameter \\$options with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Client/HttpClient/HttpClient.php
+
+		-
+			message: "#^Method Client\\\\HttpClient\\\\HttpClient\\:\\:post\\(\\) should return GuzzleHttp\\\\Psr7\\\\Response but returns GuzzleHttp\\\\Psr7\\\\Request\\.$#"
+			count: 1
+			path: lib/Client/HttpClient/HttpClient.php
+
+		-
+			message: "#^Method Client\\\\HttpClient\\\\HttpClient\\:\\:put\\(\\) has parameter \\$options with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Client/HttpClient/HttpClient.php
+
+		-
+			message: "#^Method Client\\\\HttpClient\\\\HttpClient\\:\\:put\\(\\) should return GuzzleHttp\\\\Psr7\\\\Response but returns GuzzleHttp\\\\Psr7\\\\Request\\.$#"
+			count: 1
+			path: lib/Client/HttpClient/HttpClient.php
+
+		-
+			message: "#^Method Client\\\\HttpClient\\\\HttpClient\\:\\:request\\(\\) has parameter \\$options with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Client/HttpClient/HttpClient.php
+
+		-
+			message: "#^Method Client\\\\HttpClient\\\\HttpClient\\:\\:request\\(\\) should return GuzzleHttp\\\\Psr7\\\\Request but returns Psr\\\\Http\\\\Message\\\\ResponseInterface\\.$#"
+			count: 1
+			path: lib/Client/HttpClient/HttpClient.php
+
+		-
+			message: "#^PHPDoc tag @param has invalid value \\(\\$method\\)\\: Unexpected token \"\\$method\", expected type at offset 24$#"
+			count: 1
+			path: lib/Client/HttpClient/HttpClient.php
+
+		-
+			message: "#^PHPDoc tag @param has invalid value \\(\\$uri\\)\\: Unexpected token \"\\$uri\", expected type at offset 52$#"
+			count: 1
+			path: lib/Client/HttpClient/HttpClient.php
+
+		-
+			message: "#^PHPDoc tag @var has invalid value \\(\\[\\]\\)\\: Unexpected token \"\\[\", expected type at offset 16$#"
+			count: 1
+			path: lib/Client/HttpClient/HttpClient.php
+
+		-
+			message: "#^Property Client\\\\HttpClient\\\\HttpClient\\:\\:\\$client \\(GuzzleHttp\\\\ClientInterface\\) does not accept GuzzleHttp\\\\ClientInterface\\|null\\.$#"
+			count: 1
+			path: lib/Client/HttpClient/HttpClient.php
+
+		-
+			message: "#^Property Client\\\\HttpClient\\\\HttpClient\\:\\:\\$options has no typehint specified\\.$#"
+			count: 1
+			path: lib/Client/HttpClient/HttpClient.php
+
+		-
+			message: "#^Ternary operator condition is always true\\.$#"
+			count: 1
+			path: lib/Client/HttpClient/HttpClient.php
+
+		-
+			message: "#^Method Client\\\\HttpClient\\\\HttpClientInterface\\:\\:delete\\(\\) has parameter \\$options with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Client/HttpClient/HttpClientInterface.php
+
+		-
+			message: "#^Method Client\\\\HttpClient\\\\HttpClientInterface\\:\\:get\\(\\) has parameter \\$options with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Client/HttpClient/HttpClientInterface.php
+
+		-
+			message: "#^Method Client\\\\HttpClient\\\\HttpClientInterface\\:\\:patch\\(\\) has parameter \\$options with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Client/HttpClient/HttpClientInterface.php
+
+		-
+			message: "#^Method Client\\\\HttpClient\\\\HttpClientInterface\\:\\:post\\(\\) has parameter \\$options with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Client/HttpClient/HttpClientInterface.php
+
+		-
+			message: "#^Method Client\\\\HttpClient\\\\HttpClientInterface\\:\\:put\\(\\) has parameter \\$options with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Client/HttpClient/HttpClientInterface.php
+
+		-
+			message: "#^Method Client\\\\HttpClient\\\\HttpClientInterface\\:\\:request\\(\\) has parameter \\$options with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Client/HttpClient/HttpClientInterface.php
+
+		-
+			message: "#^Method Client\\\\Security\\\\Authentication\\\\AuthenticationInterface\\:\\:getHeaders\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Client/Security/Authentication/AuthenticationInterface.php
+
+		-
+			message: "#^Method Client\\\\Security\\\\Authentication\\\\TotemTokenAuthentication\\:\\:__construct\\(\\) has parameter \\$authorizationHeader with no typehint specified\\.$#"
+			count: 1
+			path: lib/Client/Security/Authentication/TotemTokenAuthentication.php
+
+		-
+			message: "#^Method Client\\\\Security\\\\Authentication\\\\TotemTokenAuthentication\\:\\:getHeaders\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Client/Security/Authentication/TotemTokenAuthentication.php
+
+		-
+			message: "#^PHPDoc tag @param has invalid value \\(\\$authorizationHeader\\)\\: Unexpected token \"\\$authorizationHeader\", expected type at offset 70$#"
+			count: 1
+			path: lib/Client/Security/Authentication/TotemTokenAuthentication.php
+
+		-
+			message: "#^Property Client\\\\Security\\\\Authentication\\\\TotemTokenAuthentication\\:\\:\\$headers type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Client/Security/Authentication/TotemTokenAuthentication.php
+
+		-
+			message: "#^Method Client\\\\Service\\\\AbstractService\\:\\:get\\(\\) has parameter \\$options with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Client/Service/AbstractService.php
+
+		-
+			message: "#^Method Client\\\\Service\\\\AbstractService\\:\\:post\\(\\) has parameter \\$json with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Client/Service/AbstractService.php
+
+		-
+			message: "#^Method Client\\\\Service\\\\AbstractService\\:\\:post\\(\\) has parameter \\$options with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Client/Service/AbstractService.php
+
+		-
+			message: "#^Method Client\\\\Service\\\\AbstractService\\:\\:put\\(\\) has parameter \\$json with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Client/Service/AbstractService.php
+
+		-
+			message: "#^Method Client\\\\Service\\\\AbstractService\\:\\:put\\(\\) has parameter \\$options with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Client/Service/AbstractService.php
+
+		-
+			message: "#^Method Client\\\\Service\\\\AbstractService\\:\\:put\\(\\) should return Psr\\\\Http\\\\Message\\\\ResponseInterface but returns string\\.$#"
+			count: 1
+			path: lib/Client/Service/AbstractService.php
+
+		-
+			message: "#^Parameter \\#2 \\$jsonBody of method Client\\\\HttpClient\\\\HttpClientInterface\\:\\:post\\(\\) expects string, array given\\.$#"
+			count: 1
+			path: lib/Client/Service/AbstractService.php
+
+		-
+			message: "#^Parameter \\#2 \\$jsonBody of method Client\\\\HttpClient\\\\HttpClientInterface\\:\\:put\\(\\) expects string, array given\\.$#"
+			count: 1
+			path: lib/Client/Service/AbstractService.php
+
+		-
+			message: "#^Parameter \\#2 \\$type of method JMS\\\\Serializer\\\\SerializerInterface\\:\\:deserialize\\(\\) expects class\\-string\\<mixed\\>, string given\\.$#"
+			count: 1
+			path: lib/Client/Service/AbstractService.php
+
+		-
+			message: "#^Unable to resolve the template type T in call to method JMS\\\\Serializer\\\\SerializerInterface\\:\\:deserialize\\(\\)$#"
+			count: 1
+			path: lib/Client/Service/AbstractService.php
+
+		-
+			message: "#^Method Client\\\\Service\\\\PersonService\\:\\:getTotemData\\(\\) has parameter \\$namespace with no typehint specified\\.$#"
+			count: 1
+			path: lib/Client/Service/PersonService.php
+
+		-
+			message: "#^Method Client\\\\Service\\\\PersonService\\:\\:getTotemData\\(\\) has parameter \\$totemId with no typehint specified\\.$#"
+			count: 1
+			path: lib/Client/Service/PersonService.php
+
+		-
+			message: "#^Method Client\\\\Service\\\\PersonService\\:\\:updatePersonGlobal\\(\\) has parameter \\$totemId with no typehint specified\\.$#"
+			count: 1
+			path: lib/Client/Service/PersonService.php
+
+		-
+			message: "#^Method Client\\\\Service\\\\PersonService\\:\\:updatePersonPassword\\(\\) has parameter \\$password with no typehint specified\\.$#"
+			count: 1
+			path: lib/Client/Service/PersonService.php
+
+		-
+			message: "#^Method Client\\\\Service\\\\PersonService\\:\\:updatePersonPassword\\(\\) has parameter \\$totemId with no typehint specified\\.$#"
+			count: 1
+			path: lib/Client/Service/PersonService.php
+
+		-
+			message: "#^Method Client\\\\Service\\\\PersonService\\:\\:updatePersonTipee\\(\\) has parameter \\$namespace with no typehint specified\\.$#"
+			count: 1
+			path: lib/Client/Service/PersonService.php
+
+		-
+			message: "#^Method Client\\\\Service\\\\PersonService\\:\\:updatePersonTipee\\(\\) has parameter \\$totemId with no typehint specified\\.$#"
+			count: 1
+			path: lib/Client/Service/PersonService.php
+
+		-
+			message: "#^Method Client\\\\Service\\\\PersonService\\:\\:updatePersonUsername\\(\\) has parameter \\$totemId with no typehint specified\\.$#"
+			count: 1
+			path: lib/Client/Service/PersonService.php
+
+		-
+			message: "#^Method Client\\\\Service\\\\PersonService\\:\\:updatePersonUsername\\(\\) has parameter \\$username with no typehint specified\\.$#"
+			count: 1
+			path: lib/Client/Service/PersonService.php
+
+		-
+			message: "#^PHPDoc tag @param has invalid value \\(\\$namespace\\)\\: Unexpected token \"\\$namespace\", expected type at offset 41$#"
+			count: 2
+			path: lib/Client/Service/PersonService.php
+
+		-
+			message: "#^PHPDoc tag @param has invalid value \\(\\$password\\)\\: Unexpected token \"\\$password\", expected type at offset 41$#"
+			count: 1
+			path: lib/Client/Service/PersonService.php
+
+		-
+			message: "#^PHPDoc tag @param has invalid value \\(\\$totemId\\)\\: Unexpected token \"\\$totemId\", expected type at offset 18$#"
+			count: 5
+			path: lib/Client/Service/PersonService.php
+
+		-
+			message: "#^PHPDoc tag @param has invalid value \\(\\$username\\)\\: Unexpected token \"\\$username\", expected type at offset 41$#"
+			count: 1
+			path: lib/Client/Service/PersonService.php
+
+		-
+			message: "#^Parameter \\#1 \\$json of method Client\\\\Service\\\\AbstractService\\:\\:deserialize\\(\\) expects string, Psr\\\\Http\\\\Message\\\\ResponseInterface given\\.$#"
+			count: 4
+			path: lib/Client/Service/PersonService.php
+
+		-
+			message: "#^Method Client\\\\Test\\\\ClientBuilderTest\\:\\:build_Success\\(\\) has no return typehint specified\\.$#"
+			count: 1
+			path: test/Client/Test/ClientBuilderTest.php
+
+		-
+			message: "#^Method Client\\\\Test\\\\ClientTest\\:\\:service_ThroughMagicMethodWithValidName_ReturnsServiceInstance\\(\\) has no return typehint specified\\.$#"
+			count: 1
+			path: test/Client/Test/ClientTest.php
+
+		-
+			message: "#^Method Client\\\\Test\\\\ClientTest\\:\\:service_WithUnknownName_throwsException\\(\\) has no return typehint specified\\.$#"
+			count: 1
+			path: test/Client/Test/ClientTest.php
+
+		-
+			message: "#^Method Client\\\\Test\\\\ClientTest\\:\\:service_WithValidName_ReturnsServiceInstance\\(\\) has no return typehint specified\\.$#"
+			count: 1
+			path: test/Client/Test/ClientTest.php
+
+		-
+			message: "#^Method Client\\\\Test\\\\ClientTest\\:\\:service_dataprovider\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: test/Client/Test/ClientTest.php
+
+		-
+			message: "#^Parameter \\#1 \\$expected of method PHPUnit\\\\Framework\\\\Assert\\:\\:assertInstanceOf\\(\\) expects class\\-string\\<object\\>, string given\\.$#"
+			count: 2
+			path: test/Client/Test/ClientTest.php
+
+		-
+			message: "#^Call to an undefined method Prophecy\\\\Prophecy\\\\ObjectProphecy\\:\\:getStatusCode\\(\\)\\.$#"
+			count: 2
+			path: test/Client/Test/Exception/ExceptionWrapperTest.php
+
+		-
+			message: "#^Call to an undefined method Prophecy\\\\Prophecy\\\\ObjectProphecy\\|Psr\\\\Http\\\\Message\\\\RequestInterface\\:\\:hasHeader\\(\\)\\.$#"
+			count: 2
+			path: test/Client/Test/Exception/ExceptionWrapperTest.php
+
+		-
+			message: "#^Call to an undefined method Psr\\\\Http\\\\Message\\\\RequestInterface\\:\\:reveal\\(\\)\\.$#"
+			count: 2
+			path: test/Client/Test/Exception/ExceptionWrapperTest.php
+
+		-
+			message: "#^Call to an undefined method Psr\\\\Http\\\\Message\\\\ResponseInterface\\:\\:reveal\\(\\)\\.$#"
+			count: 2
+			path: test/Client/Test/Exception/ExceptionWrapperTest.php
+
+		-
+			message: "#^Cannot call method shouldBeCalled\\(\\) on bool\\.$#"
+			count: 2
+			path: test/Client/Test/Exception/ExceptionWrapperTest.php
+
+		-
+			message: "#^Method Client\\\\Test\\\\Exception\\\\ExceptionWrapperTest\\:\\:wrap_401AndCredentialsGiven_ReturnsApiException\\(\\) has no return typehint specified\\.$#"
+			count: 1
+			path: test/Client/Test/Exception/ExceptionWrapperTest.php
+
+		-
+			message: "#^Method Client\\\\Test\\\\Exception\\\\ExceptionWrapperTest\\:\\:wrap_401AndNoCredentialsGiven_ReturnsApiException\\(\\) has no return typehint specified\\.$#"
+			count: 1
+			path: test/Client/Test/Exception/ExceptionWrapperTest.php
+
+		-
+			message: "#^Call to an undefined method GuzzleHttp\\\\ClientInterface\\:\\:reveal\\(\\)\\.$#"
+			count: 1
+			path: test/Client/Test/HttpClient/HttpClientTest.php
+
+		-
+			message: "#^Call to an undefined method Prophecy\\\\Prophecy\\\\ObjectProphecy\\:\\:request\\(\\)\\.$#"
+			count: 5
+			path: test/Client/Test/HttpClient/HttpClientTest.php
+
+		-
+			message: "#^Method Client\\\\Test\\\\HttpClient\\\\HttpClientTest\\:\\:delete_WithValidOptions_Success\\(\\) has no return typehint specified\\.$#"
+			count: 1
+			path: test/Client/Test/HttpClient/HttpClientTest.php
+
+		-
+			message: "#^Method Client\\\\Test\\\\HttpClient\\\\HttpClientTest\\:\\:get_WithValidOptions_Success\\(\\) has no return typehint specified\\.$#"
+			count: 1
+			path: test/Client/Test/HttpClient/HttpClientTest.php
+
+		-
+			message: "#^Method Client\\\\Test\\\\HttpClient\\\\HttpClientTest\\:\\:patch_WithValidOptions_Success\\(\\) has no return typehint specified\\.$#"
+			count: 1
+			path: test/Client/Test/HttpClient/HttpClientTest.php
+
+		-
+			message: "#^Method Client\\\\Test\\\\HttpClient\\\\HttpClientTest\\:\\:post_WithValidOptions_Success\\(\\) has no return typehint specified\\.$#"
+			count: 1
+			path: test/Client/Test/HttpClient/HttpClientTest.php
+
+		-
+			message: "#^Method Client\\\\Test\\\\HttpClient\\\\HttpClientTest\\:\\:put_WithValidOptions_Success\\(\\) has no return typehint specified\\.$#"
+			count: 1
+			path: test/Client/Test/HttpClient/HttpClientTest.php
+
+		-
+			message: "#^Parameter \\#1 \\$authentication of class Client\\\\HttpClient\\\\HttpClient constructor expects Client\\\\Security\\\\Authentication\\\\AuthenticationInterface, object given\\.$#"
+			count: 5
+			path: test/Client/Test/HttpClient/HttpClientTest.php
+
+		-
+			message: "#^Parameter \\#3 \\$client of class Client\\\\HttpClient\\\\HttpClient constructor expects GuzzleHttp\\\\ClientInterface\\|null, object given\\.$#"
+			count: 4
+			path: test/Client/Test/HttpClient/HttpClientTest.php
+
+		-
+			message: "#^Method Client\\\\Test\\\\HttpClient\\\\Middleware\\\\AuthenticationMiddlewareTest\\:\\:invoke_Success\\(\\) has no return typehint specified\\.$#"
+			count: 1
+			path: test/Client/Test/HttpClient/Middleware/AuthenticationMiddlewareTest.php
+
+		-
+			message: "#^Method Client\\\\Test\\\\Security\\\\TotemTokenAuthenticationTest\\:\\:getHeaders_Success\\(\\) has no return typehint specified\\.$#"
+			count: 1
+			path: test/Client/Test/Security/TotemTokenAuthenticationTest.php
+
+		-
+			message: "#^Method SerializerBuilderTest\\:\\:build_Success\\(\\) has no return typehint specified\\.$#"
+			count: 1
+			path: test/Client/Test/Serializer/SerializerBuilderTest.php
+
+		-
+			message: "#^Call to an undefined method Client\\\\HttpClient\\\\HttpClientInterface\\:\\:reveal\\(\\)\\.$#"
+			count: 4
+			path: test/Client/Test/Service/PersonServiceTest.php
+
+		-
+			message: "#^Call to an undefined method Prophecy\\\\Prophecy\\\\ObjectProphecy\\:\\:get\\(\\)\\.$#"
+			count: 1
+			path: test/Client/Test/Service/PersonServiceTest.php
+
+		-
+			message: "#^Call to an undefined method Prophecy\\\\Prophecy\\\\ObjectProphecy\\:\\:post\\(\\)\\.$#"
+			count: 1
+			path: test/Client/Test/Service/PersonServiceTest.php
+
+		-
+			message: "#^Call to an undefined method Prophecy\\\\Prophecy\\\\ObjectProphecy\\:\\:put\\(\\)\\.$#"
+			count: 2
+			path: test/Client/Test/Service/PersonServiceTest.php
+
+		-
+			message: "#^Method PersonServiceTest\\:\\:create_Success\\(\\) has no return typehint specified\\.$#"
+			count: 1
+			path: test/Client/Test/Service/PersonServiceTest.php
+
+		-
+			message: "#^Method PersonServiceTest\\:\\:getTotemData_Success\\(\\) has no return typehint specified\\.$#"
+			count: 1
+			path: test/Client/Test/Service/PersonServiceTest.php
+
+		-
+			message: "#^Method PersonServiceTest\\:\\:updatePersonGlobal_Success\\(\\) has no return typehint specified\\.$#"
+			count: 1
+			path: test/Client/Test/Service/PersonServiceTest.php
+
+		-
+			message: "#^Method PersonServiceTest\\:\\:updatePersonTipee_Success\\(\\) has no return typehint specified\\.$#"
+			count: 1
+			path: test/Client/Test/Service/PersonServiceTest.php
+
+		-
+			message: "#^Method Client\\\\Test\\\\TestCase\\:\\:configureSerializer\\(\\) has no return typehint specified\\.$#"
+			count: 1
+			path: test/Client/Test/TestCase.php
+
+		-
+			message: "#^Method Client\\\\Test\\\\TestCase\\:\\:serialize\\(\\) has parameter \\$data with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: test/Client/Test/TestCase.php
+
+		-
+			message: "#^Function includeIfExists\\(\\) has no return typehint specified\\.$#"
+			count: 1
+			path: test/bootstrap.php
+
+		-
+			message: "#^Function includeIfExists\\(\\) has parameter \\$file with no typehint specified\\.$#"
+			count: 1
+			path: test/bootstrap.php
+

@@ -14,7 +14,9 @@
     },
     "require-dev": {
         "phpunit/phpunit": "^8.5",
-        "mockery/mockery": "^1.3"
+        "mockery/mockery": "^1.3",
+        "overtrue/phplint": "^2.4|^3.0",
+        "phpstan/phpstan": "^0.12.88"
     },
     "autoload": {
         "psr-4": {
