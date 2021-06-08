@@ -2,6 +2,7 @@ var
 vendor
 .idea/
 test-output/
+composer.lock
 *.iml
 .phplint-cache
 .phpunit.result.cache

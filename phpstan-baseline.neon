@@ -306,16 +306,6 @@ parameters:
 			path: lib/Client/Service/AbstractService.php
 
 		-
-			message: "#^Parameter \\#2 \\$type of method JMS\\\\Serializer\\\\SerializerInterface\\:\\:deserialize\\(\\) expects class\\-string\\<mixed\\>, string given\\.$#"
-			count: 1
-			path: lib/Client/Service/AbstractService.php
-
-		-
-			message: "#^Unable to resolve the template type T in call to method JMS\\\\Serializer\\\\SerializerInterface\\:\\:deserialize\\(\\)$#"
-			count: 1
-			path: lib/Client/Service/AbstractService.php
-
-		-
 			message: "#^Method Client\\\\Service\\\\PersonService\\:\\:getTotemData\\(\\) has parameter \\$namespace with no typehint specified\\.$#"
 			count: 1
 			path: lib/Client/Service/PersonService.php
