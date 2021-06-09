@@ -1,5 +1,5 @@
 {
-    "name": "gammadia/totem-wrapper",
+    "name": "gammadia/totem-php-wrapper",
     "type": "library",
     "license": "proprietary",
     "description": "PHP Wrapper for Totem",
