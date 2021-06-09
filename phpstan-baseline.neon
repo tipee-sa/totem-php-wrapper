@@ -71,6 +71,21 @@ parameters:
 			path: lib/Client/Entity/PersonData.php
 
 		-
+			message: "#^Property Client\\\\Entity\\\\Response\\\\PersonCreate\\:\\:\\$location is never written, only read\\.$#"
+			count: 1
+			path: lib/Client/Entity/Response/PersonCreate.php
+
+		-
+			message: "#^Property Client\\\\Entity\\\\Response\\\\PersonCreate\\:\\:\\$success is never written, only read\\.$#"
+			count: 1
+			path: lib/Client/Entity/Response/PersonCreate.php
+
+		-
+			message: "#^Property Client\\\\Exception\\\\ExceptionWrapper\\:\\:\\$serializer is never read, only written\\.$#"
+			count: 1
+			path: lib/Client/Exception/ExceptionWrapper.php
+
+		-
 			message: "#^Unsafe usage of new static\\(\\)\\.$#"
 			count: 1
 			path: lib/Client/Exception/ExceptionWrapper.php
