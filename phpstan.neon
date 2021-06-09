@@ -8,7 +8,6 @@ parameters:
     paths:
         - 'lib'
         - 'test'
-    phpVersion: 80007
     reportUnmatchedIgnoredErrors: true
     checkFunctionNameCase: true
     checkUninitializedProperties: true
