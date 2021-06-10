@@ -3,12 +3,6 @@
     "type": "library",
     "license": "proprietary",
     "description": "PHP Wrapper for Totem",
-    "authors": [
-        {
-            "name": "Jody Lognoul",
-            "email": "jody.lognoul@gammadia.ch"
-        }
-    ],
     "require": {
         "php": "^7.2|^8.0",
         "gammadia/jms-serializer-1.x": "^1.14",
