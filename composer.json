@@ -4,15 +4,15 @@
     "license": "proprietary",
     "description": "PHP Wrapper for Totem",
     "require": {
-        "php": "^7.2|^8.0",
+        "php": "^7.2 || >=8.0.2",
         "gammadia/jms-serializer-1.x": "^1.14",
         "guzzlehttp/guzzle": "^7.0",
-        "symfony/yaml": "^4.0|^5.0"
+        "symfony/yaml": "^4.0 || ^5.0 || ^6.0"
     },
     "require-dev": {
         "phpunit/phpunit": "^8.5",
         "mockery/mockery": "^1.3.4",
-        "overtrue/phplint": "^2.4|^3.0",
+        "overtrue/phplint": "^2.4 || ^3.0 || ^4.0",
         "phpstan/phpstan": "^0.12"
     },
     "autoload": {
