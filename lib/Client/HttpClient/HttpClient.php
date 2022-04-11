@@ -110,6 +110,7 @@ class HttpClient implements HttpClientInterface
     private function doRequest($method, $uri, array $options)
     {
         $client = $this->client ?: new Client($this->options);
+
         return $client->request($method, $uri, $options);
     }
 
@@ -119,10 +120,7 @@ class HttpClient implements HttpClientInterface
     private function handleAuthorization()
     {
         $stack = HandlerStack::create();
-
-        if (! empty($this->authentication)) {
-            $stack->push(new AuthenticationMiddleware($this->authentication));
-        }
+        $stack->push(new AuthenticationMiddleware($this->authentication));
 
         $this->options['handler'] = $stack;
     }
